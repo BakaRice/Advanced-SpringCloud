@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter3-log-filter-starter/chapter3-log-filter-starter.iml" filepath="$PROJECT_DIR$/chapter3-log-filter-starter/chapter3-log-filter-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3-springboot.iml" filepath="$PROJECT_DIR$/chapter3-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3-springboot-demo/chapter3-springboot-demo.iml" filepath="$PROJECT_DIR$/chapter3-springboot-demo/chapter3-springboot-demo.iml" />
+    </modules>
+  </component>
+</project>

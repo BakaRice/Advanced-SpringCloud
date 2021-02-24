@@ -1,0 +1,2 @@
+com.ricemarch.chapter3logfilterstarter.annotation.EnableLogFilter=\
+com.ricemarch.chapter3logfilterstarter.config.LogFilterAutoConfiguration

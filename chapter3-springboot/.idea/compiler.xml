@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chapter3-log-filter-starter" />
+        <module name="chapter3-springboot-demo" />
+        <module name="chapter3-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chapter3-log-filter-starter" target="11" />
+      <module name="chapter3-springboot" target="11" />
+      <module name="chapter3-springboot-demo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chapter3-log-filter-starter" options="-parameters" />
+      <module name="chapter3-springboot" options="-parameters" />
+      <module name="chapter3-springboot-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
