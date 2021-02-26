@@ -13,6 +13,10 @@
         <option value="$PROJECT_DIR$/chapter3-springboot/chapter3-log-filter-starter/pom.xml" />
         <option value="$PROJECT_DIR$/chapter3-springboot/chapter3-springboot-demo/pom.xml" />
         <option value="$PROJECT_DIR$/chapter4-eureka/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5-openFeign/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-service/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-common/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-client/pom.xml" />
       </list>
     </option>
   </component>
