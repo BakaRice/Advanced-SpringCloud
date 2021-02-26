@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-service/pom.xml" />
         <option value="$PROJECT_DIR$/chapter-common/pom.xml" />
         <option value="$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-client/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6-hystrix/pom.xml" />
       </list>
     </option>
   </component>
