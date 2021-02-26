@@ -11,5 +11,6 @@
     <file url="file://$PROJECT_DIR$/chapter4-eureka/zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6-hystrix/src/main/java" charset="UTF-8" />
   </component>
 </project>
