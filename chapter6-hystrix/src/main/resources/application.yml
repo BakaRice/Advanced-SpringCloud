@@ -9,3 +9,6 @@ spring:
     name: hystrix-service
 server:
   port: 8876
+feign:
+  hystrix:
+    enabled: true

@@ -1,6 +1,7 @@
 package com.ricemarch.chapter6hystrix.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.ricemarch.chapter6hystrix.client.api.InstanceClient;
 import com.ricemarch.chaptercommon.chapter5.dto.Instance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,9 +21,17 @@ public class InstanceService {
     @Autowired
     RestTemplate restTemplate;
 
+    @Autowired
+    InstanceClient instanceClient;
+
+    public Instance getInstnceByServiceIdWithFeign(String serviceId) {
+        Instance instance = instanceClient.getInstanceByServiceId(serviceId);
+        return instance;
+    }
+
     @HystrixCommand(fallbackMethod = "instanceInfoGetFail")
     public Instance getInstanceByServiceIdWitchRestTemplate(String serviceId) {
-        Instance instance = restTemplate.getForEntity("http://FEIGN-SERVICE/instance/{serviceId}", Instance.class, serviceId).getBody();
+        Instance instance = restTemplate.getForEntity("http://feign-service/instance/{serviceId}", Instance.class, serviceId).getBody();
         return instance;
     }
 
