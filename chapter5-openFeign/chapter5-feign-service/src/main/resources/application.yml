@@ -11,6 +11,7 @@ server:
 #    service-url:
 #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
+### 用于 hystrix测试 ###
 eureka:
   instance:
     instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}

@@ -26,4 +26,10 @@ public class InstanceController {
 
         return instanceService.getInstanceByServiceIdWitchRestTemplate(serviceId);
     }
+
+    @RequestMapping(value = "feign/{serviceId}", method = RequestMethod.GET)
+    public Instance getInstanceByServiceIdWithFeign(@PathVariable("serviceId") String serviceId) {
+        logger.info("Get Instance by serviceId {}", serviceId);
+        return instanceService.getInstnceByServiceIdWithFeign(serviceId);
+    }
 }
