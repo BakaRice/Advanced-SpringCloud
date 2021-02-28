@@ -12,6 +12,7 @@
         <module name="chapter3-springboot" />
         <module name="chapter4-eureka" />
         <module name="chapter4-eureka-server" />
+        <module name="chapter5-openfeign" />
         <module name="chapter-common" />
         <module name="zuul" />
         <module name="chapter6-hystrix" />
@@ -36,6 +37,7 @@
       <module name="chapter5-feign-client" options="-parameters" />
       <module name="chapter5-feign-service" options="-parameters" />
       <module name="chapter5-openFeign" options="-parameters" />
+      <module name="chapter5-openfeign" options="-parameters" />
       <module name="chapter6-hystrix" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
