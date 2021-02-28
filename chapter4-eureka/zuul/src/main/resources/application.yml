@@ -1,0 +1,20 @@
+server:
+  port: 8060
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+zuul:
+  routes:
+    eureka-client-service-route:
+      service-id: eureka-client-service
+      path: /eureka-cs/**
