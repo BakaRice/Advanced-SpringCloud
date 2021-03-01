@@ -6,13 +6,20 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-common/chapter-common.iml" filepath="$PROJECT_DIR$/chapter-common/chapter-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3-springboot/chapter3-log-filter-starter/chapter3-log-filter-starter.iml" filepath="$PROJECT_DIR$/chapter3-springboot/chapter3-log-filter-starter/chapter3-log-filter-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3-springboot/chapter3-springboot.iml" filepath="$PROJECT_DIR$/chapter3-springboot/chapter3-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3-springboot/chapter3-springboot-demo/chapter3-springboot-demo.iml" filepath="$PROJECT_DIR$/chapter3-springboot/chapter3-springboot-demo/chapter3-springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4-eureka/chapter4-eureka.iml" filepath="$PROJECT_DIR$/chapter4-eureka/chapter4-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4-eureka/chapter4-eureka-client/chapter4-eureka-client.iml" filepath="$PROJECT_DIR$/chapter4-eureka/chapter4-eureka-client/chapter4-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-eureka/chapter4-eureka-client-service/chapter4-eureka-client-service.iml" filepath="$PROJECT_DIR$/chapter4-eureka/chapter4-eureka-client-service/chapter4-eureka-client-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4-eureka/chapter4-eureka-server/chapter4-eureka-server.iml" filepath="$PROJECT_DIR$/chapter4-eureka/chapter4-eureka-server/chapter4-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-client/chapter5-feign-client.iml" filepath="$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-client/chapter5-feign-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-service/chapter5-feign-service.iml" filepath="$PROJECT_DIR$/chapter5-openFeign/chapter5-feign-service/chapter5-feign-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter5-openFeign/chapter5-openfeign.iml" filepath="$PROJECT_DIR$/chapter5-openFeign/chapter5-openfeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6-hystrix/chapter6-hystrix.iml" filepath="$PROJECT_DIR$/chapter6-hystrix/chapter6-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7-ribbon/chapter7-ribbon.iml" filepath="$PROJECT_DIR$/chapter7-ribbon/chapter7-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7-ribbon/client/client.iml" filepath="$PROJECT_DIR$/chapter7-ribbon/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7-ribbon/common/common.iml" filepath="$PROJECT_DIR$/chapter7-ribbon/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7-ribbon/otherserver/otherserver.iml" filepath="$PROJECT_DIR$/chapter7-ribbon/otherserver/otherserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7-ribbon/server/server.iml" filepath="$PROJECT_DIR$/chapter7-ribbon/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4-eureka/zuul/zuul.iml" filepath="$PROJECT_DIR$/chapter4-eureka/zuul/zuul.iml" />
     </modules>
   </component>

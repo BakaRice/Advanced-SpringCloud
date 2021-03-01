@@ -2,21 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chapter5-openFeign" />
         <module name="chapter5-feign-client" />
+        <module name="server" />
         <module name="chapter3-springboot" />
+        <module name="chapter7-ribbon" />
         <module name="chapter4-eureka" />
         <module name="chapter4-eureka-server" />
-        <module name="chapter3-log-filter-starter" />
         <module name="chapter5-openfeign" />
         <module name="chapter-common" />
         <module name="zuul" />
         <module name="chapter6-hystrix" />
-        <module name="chapter4-eureka-client" />
         <module name="chapter5-feign-service" />
+        <module name="otherserver" />
+        <module name="chapter3-springboot-demo" />
+        <module name="chapter4-eureka-client-service" />
+        <module name="common" />
+        <module name="chapter3-log-filter-starter" />
+        <module name="client" />
+        <module name="chapter4-eureka-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,24 +33,44 @@
       <module name="chapter-common" target="1.8" />
       <module name="chapter3-log-filter-starter" target="11" />
       <module name="chapter3-springboot" target="11" />
+      <module name="chapter3-springboot-demo" target="11" />
       <module name="chapter4-eureka" target="1.8" />
       <module name="chapter4-eureka-client" target="1.8" />
+      <module name="chapter4-eureka-client-service" target="1.8" />
       <module name="chapter4-eureka-server" target="1.8" />
       <module name="chapter5-feign-client" target="1.8" />
       <module name="chapter5-feign-service" target="1.8" />
+      <module name="chapter5-openFeign" target="1.8" />
       <module name="chapter5-openfeign" target="1.8" />
       <module name="chapter6-hystrix" target="1.8" />
+      <module name="chapter7-ribbon" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="otherserver" target="1.8" />
+      <module name="server" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chapter-common" options="-parameters" />
       <module name="chapter3-log-filter-starter" options="-parameters" />
+      <module name="chapter3-springboot" options="-parameters" />
+      <module name="chapter3-springboot-demo" options="-parameters" />
+      <module name="chapter4-eureka" options="-parameters" />
       <module name="chapter4-eureka-client" options="-parameters" />
+      <module name="chapter4-eureka-client-service" options="-parameters" />
       <module name="chapter4-eureka-server" options="-parameters" />
       <module name="chapter5-feign-client" options="-parameters" />
       <module name="chapter5-feign-service" options="-parameters" />
+      <module name="chapter5-openFeign" options="-parameters" />
       <module name="chapter5-openfeign" options="-parameters" />
+      <module name="chapter6-hystrix" options="-parameters" />
+      <module name="chapter7-ribbon" options="-parameters" />
+      <module name="client" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="otherserver" options="-parameters" />
+      <module name="server" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

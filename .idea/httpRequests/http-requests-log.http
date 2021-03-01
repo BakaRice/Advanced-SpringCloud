@@ -1,0 +1,16 @@
+GET http://localhost:8762/instance/1
+
+<> 2021-02-26T180854.200.json
+
+###
+
+GET http://localhost:8762/instance/{{serviceId}}
+
+###
+
+GET http://localhost:8876/instance/rest-template/1
+
+<> 2021-02-26T180453.200.json
+
+###
+
